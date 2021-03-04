@@ -1,0 +1,100 @@
+header{
+    background: rgb(41, 40, 40);
+    width: auto;
+    height: 100%;
+    background-image: url(../Imagens/castelo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+html, body{    
+    height: 100%;
+}
+main{
+    background: linear-gradient(rgb(243, 239, 239),rgb(190, 186, 186));
+}
+footer{
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+
+
+.titulo-cabecalho{
+    color: #ffffff;
+}
+.cardSobre{
+    margin-top: 20px;
+}
+
+.card-style{
+    position: absolute;
+    top:55%; /*Posicao com 50% de distancia do topo*/
+    left: 50%;
+    transform: translate(-50%);/*Posicao em 50% com relacao a ele mesmo no eixo X e Y*/
+    opacity: 70%;
+    background: black;
+    color: white;
+    width: 70%;
+}
+.titulo-depoimentos{
+    background-color: rgb(26, 129, 22);	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #FFF;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+
+.titulo-video{
+    background-color: brown;
+    padding-top: 20px;
+    color:#ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.titulo-contato{
+    background-color: rgb(69, 69, 185);
+    color: #ffffff;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.formulario{
+    width: auto;
+}
+.form-label{
+    border: 2px solid rgb(69, 69, 185);
+}
+.espacamento{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.adress{
+    color: #ffffff;
+}
+
+.logoRodape{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logoRodape:hover{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+.Copyright{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    footer{
+        text-align: center;
+    }
+}

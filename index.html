@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Bootstrap</title>
+    <!--Bootstrap5-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="container">
+        <!--Menu DropDown-->
+        <div class="navbar-header dropdown navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">TopCasaFina Arquitetura</a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#sobre-nos">Sobre nós</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#nossos-projetos">Nossos Projetos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#depoimentos">Depoimentos dos Clientes</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#video">Video Institucional</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#contato">Contato</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">[ X ] Fechar Menu</a></li>
+            </ul>            
+        </div>    
+        <div id="banner"class="card-style card">            
+            <div class="card-body">
+              <h5 class="card-title">TopCasaFina Arquitetura</h5>
+              <p class="card-text">Projetando a casa dos sonhos desde 2000 A.C</p>
+              <a href="#contato" class="btn btn-primary">Contate-nos agora.</a>
+            </div>
+          </div>    
+    </header>
+    <!--Corpo-->
+    <main>
+        <!--Section Sobre nós-->
+        <section class="container">
+            <h2 id="sobre-nos">Sobre nós</h2>
+            <div class="row">
+                <img class="col-sm-6 img-thumbnail" src="Imagens/empresa.jpg" alt="Imagem Empresa">
+                <!--Cards-->
+                <div class="col-sm-6 accordion cardSobre" id="accordionExample">
+                    <div class="accordion-item">
+                        <!--Card 1-->  
+                        <div class="card">
+                            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                <h6>Desde 1935</h6>
+                            </div>
+                            <div id="collapseOne" class="card-body accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.
+                            </div>
+                        </div>
+                        <!--Card 2-->  
+                        <div class="card">
+                            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h6>Preços Acessiveis</h6>
+                            </div>
+                            <div id="collapseTwo" class="card-body accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                Preços a partir de R$ 1000,00.
+                            </div>
+                        </div>
+                        <!--Card 3-->  
+                        <div class="card">
+                            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                <h6>Alegria para colaborar com um mundo mais bonito.</h6>
+                            </div>
+                            <div id="collapseThree" class="card-body accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            Trazendo alegria para a vida das pessoas que tem dinheiro pra gastar.
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>               
+        </section>
+        <!--Section Informativo--> 
+        <section class="container">        
+            <h2>Mais de 300 prêmios em design e em conforto.</h2>
+            <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo</p> 
+        </section>
+        <!--Section Nossos Projetos-->
+        <section class="container cardSobre">
+            <h2 id="nossos-projetos">Nossos Projetos</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <!--Projeto 01-->
+                    <figure class="card">
+                        <img src="Imagens/projetos/casa-castelo.png" class="card-img" alt="Imagem do Castelo">
+                        <figcaption class="card-body">
+                            <h5 class="card-title">Casa Castelo</h5>
+                            <p class="card-text">A Casa Castelo é o ultimo lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+                        </figcaption> 
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <!--Projeto 02-->
+                    <figure class="card">
+                        <img src="Imagens/projetos/casa-lago.png" class="card-img-top" alt="Imagem do Castelo">
+                        <figcaption class="card-body">
+                            <h5 class="card-title">Casa Lago</h5>
+                            <p class="card-text">A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+                        </figcaption> 
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <!--Projeto 03-->
+                    <figure class="card">
+                        <img src="Imagens/projetos/mercado-marapira.png" class="card-img-top" alt="Imagem do Castelo">
+                        <figcaption class="card-body">
+                            <h5 class="card-title">Mercado Marapira</h5>
+                            <p class="card-text">O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+                        </figcaption> 
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <!--Projeto 04-->
+                    <figure class="card">
+                        <img src="Imagens/projetos/palacio-dionisio.png" class="card-img-top" alt="Imagem do Castelo">
+                        <figcaption class="card-body">
+                            <h5 class="card-title">Palácio Dionísio</h5>
+                            <p class="card-text">O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+                        </figcaption> 
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <!--Projeto 05-->
+                    <figure class="card">
+                        <img src="Imagens/projetos/residencia-ludi.png" class="card-img-top" alt="Imagem do Castelo">
+                        <figcaption class="card-body">
+                            <h5 class="card-title">Residência Ludi</h5>
+                            <p class="card-text">A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+                        </figcaption> 
+                    </figure> 
+                </div>
+            </div>
+        </section>  
+        <!--Section Depoimentos/ Carousel-->
+        <section class="container">
+            <!--Titulo-Depoimentos-->
+            <h3 id="depoimentos"class="container titulo-depoimentos">Depoimentos dos clientes</h3>
+            <!--Carousel-->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+                <!--Indicadores-->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!--Imagens e Depoimentos-->
+                <div class="carousel-inner">
+                    <!--Imagem e Depoimento 01-->
+                    <div class="carousel-item active">
+                        <img src="Imagens/depoimentos/depoimento1.png" class="d-block w-100" alt="Imagem Castelo 1">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Jonathan Henrique</h5>
+                            <p>Atendimento de qualidade, ótimos profissionais.</p>
+                        </div>
+                    </div>
+                    <!--Imagem e Depoimento 02-->
+                    <div class="carousel-item">
+                        <img src="Imagens/depoimentos/depoimento2.png" class="d-block w-100" alt="Imagem Castelo 2">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Joaninha</h5>
+                            <p>Atendimento rapido e eficaz.</p>
+                        </div>
+                    </div>
+                    <!--Imagem e Depoimento 03-->
+                    <div class="carousel-item">
+                        <img src="Imagens/depoimentos/depoimento3.png" class="d-block w-100" alt="Imagem Castelo 3">
+                        <div class="carousel-caption d-md-block">
+                            <h5>João Nathan</h5>
+                            <p>Atendimento de primeira!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Botão de Anterior-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <!--Botão de Proximo-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>          
+        </section>
+        <div class="container">
+            <div class="row">
+                <!--Section Video Institucional-->
+                <section class="col-sm-6">
+                    <!--Titulo-Video-->
+                    <h3 id="video"class="titulo-video">Video Institucional</h3>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/XlzjqykUcFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <!--Section Contato-->
+                <section class="col-sm-6">
+                    <!--Titulo-Contato-->
+                    <h3 id="contato"class="titulo-contato">Contato</h3>
+                    <form class="formulario"action="">
+                        <!--Textbox Nome-->
+                        <div class="mb-3 row">
+                            <label for="input-nome" class="col-sm-2 col-form-label">Nome</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-label form-control" id="input-nome">
+                            </div>
+                        </div>
+                        <!--Textbox Email-->
+                        <div class="mb-3 row">
+                            <label for="input-email" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-label form-control" id="input-email">
+                            </div>
+                        </div>
+                        <!--Radio Button 1-->
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tipo-pessoa-fisica" value="option1" checked>
+                            <label class="form-check-label" for="tipo-pessoa-fisica">Pessoa Física</label>
+                        </div>
+                        <!--Radio Button 2-->
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tipo-pessoa-juridica" value="option2">
+                            <label class="form-check-label" for="tipo-pessoa-juridica">Pessoa Jurídica</label>
+                        </div>
+                        <!--Menu de seleção-->
+                        <select class="form-label espacamento form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Tipo de situação:</option>
+                            <option value="1">Casa</option>
+                            <option value="2">Apartamento</option>
+                            <option value="3">Mansão</option>
+                        </select>
+                        <!--Botão de Enviar-->
+                        <button type="button" class="espacamento btn btn-primary">Enviar Informações</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <!--Conteudo-->
+        <address class="adress">
+        <strong>TopCasaFina Arquitetura</strong><br>
+        Rua Vergueiro, 3185, Vila Mariana<br>
+        São Paulo, SP<br>
+        Tel: (11) 5571-2751 ou 5083-3884<br>
+        E-mail: contato.topcasafina@alura.com.br
+        </address> 
+        <!--Redes Sociais-->
+        <section class="social">
+            <p class="Copyright">Minhas Redes Sociais:</p>
+            <a href="https://www.linkedin.com/in/jonathan-henrique-1b4a69144/" target="_blank">
+                <img src="Imagens/linkedin.png" alt="linkedinLogo" class="logoRodape">
+            </a>
+            <a href="http://github.com/henrithanN"target="_blank">            
+                <img src="Imagens/github.png" alt="githubLogo" class="logoRodape">
+            </a> 
+        </section>
+            
+    </footer>
+    <!--Scripts-->
+    <script src="bootstrap/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js.map"></script>
+    <script src="bootstrap/js/bootstrap.esm.min.js"></script>
+    <script src="bootstrap/js/bootstrap.esm.min.js.map"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js.map"></script>
+</body>
+</html>
